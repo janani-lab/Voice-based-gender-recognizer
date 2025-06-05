@@ -9,7 +9,6 @@ A Python project to detect and classify gender based on voice samples. This repo
 - [Usage](#usage)
 - [Dataset](#dataset)
 - [How It Works](#how-it-works)
-- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -26,11 +25,6 @@ A Python project to detect and classify gender based on voice samples. This repo
    ```bash
    git clone https://github.com/janani-lab/Voice-based-gender-recognizer.git
    cd Voice-based-gender-recognizer
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
    ```
 
 > **Note:** Make sure you have Python 3.7 or higher installed.
@@ -62,18 +56,6 @@ Or your own `.wav` files. Place them in the `data/` directory.
 2. **Model Training:** Trains a classifier (e.g., SVM, Random Forest) on the extracted features.
 3. **Prediction:** Classifies new voice samples as male or female based on the trained model.
 
-## Project Structure
-
-```
-Voice-based-gender-recognizer/
-│
-├── data/                  # Voice sample files (.wav)
-├── extract_features.py    # Script to extract audio features
-├── train_model.py         # Script to train the classifier
-├── predict.py             # Script for inference on new samples
-├── requirements.txt       # Python dependencies
-└── README.md
-```
 
 ## Contributing
 
